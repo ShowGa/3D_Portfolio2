@@ -207,6 +207,23 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/ShowGa/3D_Portfolio",
   },
+  {
+    name: "3D Portfolio Website - Gamer Rig",
+    description:
+      "3D portfolio Website for practicing 3D render technique with Three.js base on React.js",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/ShowGa/3D_Portfolio2",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
