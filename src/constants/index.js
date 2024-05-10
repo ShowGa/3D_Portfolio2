@@ -16,14 +16,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  portfolio_3d,
+  broschat,
+  reactPicAPP,
+  real_Estate,
+  question,
+  portfolio_3d_2,
 } from "../assets";
 
 export const navLinks = [
@@ -99,7 +101,7 @@ const experiences = [
   {
     title: "Finding an intership position",
     company_name: "Your Company",
-    icon: starbucks,
+    icon: question,
     iconBg: "#383E56",
     date: "Get to work at any time",
     points: [
@@ -138,18 +140,18 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "Redux",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "Firebase",
-        color: "pink-text-gradient",
+        color: "red-text-gradient",
       },
     ],
-    image: carrent,
+    image: real_Estate,
     source_code_link: "https://github.com/ShowGa/Real-Estate-client",
   },
   {
@@ -167,14 +169,14 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "Socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: broschat,
     source_code_link: "https://github.com/ShowGa/BrosChat",
   },
   {
@@ -187,7 +189,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: reactPicAPP,
     source_code_link: "https://github.com/ShowGa/ReactPhotoSite",
   },
   {
@@ -201,10 +203,10 @@ const projects = [
       },
       {
         name: "Three.js",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: portfolio_3d,
     source_code_link: "https://github.com/ShowGa/3D_Portfolio",
   },
   {
@@ -218,10 +220,10 @@ const projects = [
       },
       {
         name: "Three.js",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: portfolio_3d_2,
     source_code_link: "https://github.com/ShowGa/3D_Portfolio2",
   },
 ];

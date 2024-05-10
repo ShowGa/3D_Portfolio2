@@ -21,14 +21,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import carrent from "./carrent.png";
+
+import portfolio_3d from "./3D_Portfolio.png";
+import broschat from "./BrosChat.png";
+import reactPicAPP from "./ReactPicAPP.png";
+import real_Estate from "./Real_Estate.png";
+import portfolio_3d_2 from "./3D_2.png";
+import ShowGa from "./ShowGa.png";
+
+import question from "./company/question.png";
 
 export {
   logo,
@@ -52,11 +56,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
   jobit,
   tripguide,
+  carrent,
+  portfolio_3d,
+  broschat,
+  reactPicAPP,
+  real_Estate,
+  portfolio_3d_2,
+  ShowGa,
+  question,
 };
