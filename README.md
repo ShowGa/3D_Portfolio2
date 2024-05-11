@@ -1,5 +1,5 @@
 # 3D Portfolio Website - Gamer Rig
-Link : https://github.com/ShowGa/3D_Portfolio2
+Link : [https://github.com/ShowGa/3D_Portfolio2](https://threed-portfolio2-09of.onrender.com/)
 
 # React + Vite
 
