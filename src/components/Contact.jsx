@@ -39,6 +39,11 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
+        if (data.name === "" || data.email === "" || data.message === "") {
+          toast.error("Please fullfill the required input");
+          return;
+        }
+
         setLoading(false);
         toast.success(
           "Message Sending successfully !\nShowGa will reply your message very soon ^_^"
@@ -56,8 +61,6 @@ const Contact = () => {
         console.log(e);
       });
   };
-
-  useEffect(() => {}, []);
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col flex gap-10 overflow-hidden">
@@ -82,6 +85,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              // required
             />
           </label>
 
@@ -94,6 +98,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              // required
             />
           </label>
 
@@ -106,6 +111,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Say something to me :"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              // required
             />
           </label>
 
