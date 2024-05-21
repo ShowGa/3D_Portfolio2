@@ -23,8 +23,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     setLoading(true);
+
+    // check the data before submit
+    if (data.name === "" || data.email === "" || data.message === "") {
+      setLoading(false);
+      toast.error("Please fullfill the required input");
+      return;
+    }
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_KEY,
@@ -39,11 +46,6 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
-        if (data.name === "" || data.email === "" || data.message === "") {
-          toast.error("Please fullfill the required input");
-          return;
-        }
-
         setLoading(false);
         toast.success(
           "Message Sending successfully !\nShowGa will reply your message very soon ^_^"
@@ -85,7 +87,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              // required
+              required
             />
           </label>
 
@@ -98,7 +100,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              // required
+              required
             />
           </label>
 
@@ -111,7 +113,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Say something to me :"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              // required
+              required
             />
           </label>
 
