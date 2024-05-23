@@ -11,6 +11,7 @@ Link : <a href="https://threed-portfolio2-09of.onrender.com" target="_blank">Sho
 - Tailwind CSS
 
 ## 介紹
+- 可移動3D物件
 - 透過實作這個項目來製作出漂亮的個人作品集網頁
 - 學習有關Three.js的相關技術
 - 部署至render.com
@@ -34,6 +35,7 @@ Link : <a href="https://threed-portfolio2-09of.onrender.com" target="_blank">Sho
 - Tailwind CSS
 
 ## Introduction
+- Movable 3D objects
 - Create an beautiful 3D website by hands-on experience
 - Learning the technique about Three.js
 - Depoly to the render.com
