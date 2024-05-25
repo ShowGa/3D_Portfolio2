@@ -44,6 +44,6 @@ Link : <a href="https://threed-portfolio2-09of.onrender.com" target="_blank">Sho
 - Depoly to the render.com
 
 ## Appreciation
-This project come from the tutorial taught by <a href="https://github.com/adrianhajdin" target="_blank">Adrian Hajdin - JS Mastery</a>
+This project comes from the tutorial taught by <a href="https://github.com/adrianhajdin" target="_blank">Adrian Hajdin - JS Mastery</a>
 <br>
 JS Mastery Official Youtube channel : <a href="https://www.youtube.com/@javascriptmastery" target="_blank">LINK</a>
