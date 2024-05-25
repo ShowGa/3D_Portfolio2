@@ -1,4 +1,4 @@
-## 3D 個人作品集網頁
+## 3D 個人作品集網頁 - 玩家
 Link : <a href="https://threed-portfolio2-09of.onrender.com" target="_blank">ShowGa Portfolio Website</a>
 
 ## 技術
