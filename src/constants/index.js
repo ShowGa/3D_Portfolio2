@@ -26,6 +26,8 @@ import {
   real_Estate,
   question,
   portfolio_3d_2,
+  ShowGaBlog,
+  foodwasteproject,
 } from "../assets";
 
 export const navLinks = [
@@ -126,6 +128,79 @@ const testimonials = [
 
 const projects = [
   {
+    name: "ShowGa 個人部落格",
+    description:
+      "因興趣而製作的個人部落格。登入、搜尋、留言、發文、編輯、刪除等基本功能。",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "red-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ShowGaBlog,
+    source_code_link: "https://github.com/ShowGa/ShowGa_Blog",
+  },
+  {
+    name: "吃不完兜著走(開發中)",
+    description: "Java程式設計班期末專題，使用Java Spring Boot製作。",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "red-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Java Spring Boot",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: foodwasteproject,
+    source_code_link: "https://github.com/ShowGa/ShowGa_Blog",
+  },
+  {
     name: "Midas Real-Estate",
     description:
       "A Website imitate the Real-Estate website, for practicing MERN Stack skills .",
@@ -179,19 +254,7 @@ const projects = [
     image: broschat,
     source_code_link: "https://github.com/ShowGa/BrosChat",
   },
-  {
-    name: "Photo Website",
-    description:
-      "A photo website for practicing React.js and dealing with fetching data .",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: reactPicAPP,
-    source_code_link: "https://github.com/ShowGa/ReactPhotoSite",
-  },
+
   {
     name: "3D Portfolio Website - Island",
     description:

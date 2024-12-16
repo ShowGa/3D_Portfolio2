@@ -31,6 +31,8 @@ import reactPicAPP from "./ReactPicAPP.png";
 import real_Estate from "./Real_Estate.png";
 import portfolio_3d_2 from "./3D_2.png";
 import ShowGa from "./ShowGa.png";
+import ShowGaBlog from "./showgablog.png";
+import foodwasteproject from "./foodwasteproject.png";
 
 import question from "./company/question.png";
 
@@ -66,4 +68,6 @@ export {
   portfolio_3d_2,
   ShowGa,
   question,
+  ShowGaBlog,
+  foodwasteproject,
 };
